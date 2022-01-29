@@ -1,0 +1,51 @@
+INSERT INTO professors (professor_name)
+VALUES('Tracy')
+
+INSERT INTO professors (professor_name)
+VALUES('Biddy')
+
+INSERT INTO professors (professor_name)
+VALUES('Jenny')
+
+
+INSERT INTO courses (course_name,professor_course_id)
+VALUES('English',2)
+
+INSERT INTO courses (course_name,professor_course_id)
+VALUES('Math',1)
+
+INSERT INTO courses (course_name,professor_course_id)
+VALUES('Science',3)
+
+INSERT INTO courses (course_name,professor_course_id)
+VALUES('Art',2)
+
+INSERT INTO courses (course_name,professor_course_id)
+VALUES('English',2)
+
+
+INSERT INTO grades (grade_num,professor_grade_id,course_grade_id,student_grade_id)
+VALUES(90,2,1,1)
+
+INSERT INTO grades (grade_num,professor_grade_id,course_grade_id,student_grade_id)
+VALUES(80,2,1,2)
+
+INSERT INTO grades (grade_num,professor_grade_id,course_grade_id,student_grade_id)
+VALUES(70,3,2,2)
+
+
+INSERT INTO grades (grade_num,professor_grade_id,course_grade_id,student_grade_id)
+VALUES(60,1,2,3)
+
+
+INSERT INTO grades (grade_num,professor_grade_id,course_grade_id,student_grade_id)
+VALUES(50,1,5,3)
+
+
+
+INSERT INTO grades (grade_num,professor_grade_id,course_grade_id,student_grade_id)
+VALUES(40,3,3,3)
+
+
+INSERT INTO grades (grade_num,professor_grade_id,course_grade_id,student_grade_id)
+VALUES(30,2,4,3)
